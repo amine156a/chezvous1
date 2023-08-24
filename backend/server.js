@@ -1,5 +1,4 @@
 const app = require("./app");
-dot.config().parsed;
 const connectDatabase = require("./db/Database");
 const cloudinary = require("cloudinary");
 
