@@ -1,2 +1,2 @@
-export const server = "https://chezvous1-metv.vercel.app/api/v2";
+export const server = "https://localhost:8000/api/v2";
 
