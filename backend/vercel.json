@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name":"chezvous",
+    "name":"chezvous1",
     "builds":[
         {"src":"server.js","use":"@vercel/node"}
     ],
