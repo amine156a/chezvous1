@@ -220,7 +220,7 @@ const Header = ({ activeHeading }) => {
           <div className={`${styles.noramlFlex}`}></div>
           <div className="uclogo">
             <Link to="/">
-              <img src="https://i.ibb.co/j35KWMn/Picsart-23-08-23-04-47-57-980-3-170x38.png" />
+              <img src="https://i.ibb.co/YcCyYSd/Picsart-23-08-23-04-47-57-980-8-180x40.png" />
             </Link>
           </div>
           <div className="flex">
