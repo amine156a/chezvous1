@@ -45,7 +45,6 @@ input[type=number] {
 /*Home Categories*/
 .ucategorie.grid-cols-1 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  padding-left: 6px;
   column-gap: 57px;
 }
 
