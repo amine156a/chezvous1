@@ -1,2 +1,2 @@
-export const server = "http://https://backend2-0s39.onrender.com/api/v2";
+export const server = "https://chezvous1.vercel.app/api/v2";
 
