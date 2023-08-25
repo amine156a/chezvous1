@@ -11,7 +11,7 @@ require("dotenv").config({
 });
 
 app.use(cors({
-  origin: ['http://localhost:3000',],
+  origin: ['https://chezvous1.vercel.app',],
   credentials: true
 }));
 app.use(express.json());
