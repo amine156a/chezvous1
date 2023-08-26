@@ -4,7 +4,10 @@ const express = require("express");
 const cors = require("cors");
 const app = express();
 const server = http.createServer(app);
-const io = socketIO(server);
+const io =  new Server (server, { cors: {
+  origin: ['https://chezvous1.vercel.app',],
+  credentials: true
+}});
 
 require("dotenv").config({
   path: "./.env",
