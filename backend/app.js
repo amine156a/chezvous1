@@ -4,11 +4,34 @@ const app = express();
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const cors = require("cors");
-
-app.use(cors({
+const socketIO = require("socket.io");
+const http = require("http");
+const express = require("express");
+const cors = require("cors");
+const server = http.createServer(app);app.use(cors({
   origin: ['https://chezvous1.vercel.app'],
   credentials: true
 }));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 app.use(express.json());
 app.use(cookieParser());
