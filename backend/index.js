@@ -9,9 +9,6 @@ const io =  new Server (server, { cors: {
   credentials: true
 }});
 
-require("dotenv").config({
-  path: "./.env",
-});
 
 app.use(cors());
 app.use(express.json());
